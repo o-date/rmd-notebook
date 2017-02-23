@@ -5,9 +5,11 @@ author: "Lincoln Mullen"
 
 ### What is this?
 
-If you use [R Markdown](http://rmarkdown.rstudio.com/) for data analysis projects, you might like to put your HTML reports on the web for people to look at. It would be nice if those pages were closely tied to your GitHub repository, but HTML pages render as code on GitHub proper. So this repository is a template for making a GitHub pages version of your analysis. Not that you have to use GitHub pages: you could just as easily rsync your HTML files anywhere else that you want.
+This is a 'fork' - a copy - of Lincoln Mullen's 'Simple R Markdown Notebook'. [R Markdown](http://rmarkdown.rstudio.com/) is like 'ordinary' Markdown with the added benefit of being able to run and display R code you use for your analysis. In this version of Mullen's notebook, we've added code to support the [hypothes.is](http://hypothes.is) web annotation framework. That way, not only can you share your notes, your code, and your results, but others can annotate and share their annotations! 
 
-For example, here is the table of contents for rendered versions of every R Markdown document in this repository.
+When you run the 'make' command from the command line, your notecards - your .Rmd files - get transformed into a nice looking HTML site. In this way, we move from research to publication in an easy manner.
+
+The snippet of code below shows how the table of contents for rendered versions of every R Markdown document in this repository is generated.
 
 ### Table of contents
 
@@ -43,4 +45,4 @@ push = +refs/heads/master:refs/heads/master
 
 Don't forget to commit the HTML files that you generate.
 
-See the [GitHub repository](https://github.com/lmullen/rmd-notebook) for the source. See the [R Markdown documentation](http://rmarkdown.rstudio.com/) if you want to do more.
+See the [GitHub repository](https://github.com/lmullen/rmd-notebook) for the original source. See the [R Markdown documentation](http://rmarkdown.rstudio.com/) if you want to do more.
