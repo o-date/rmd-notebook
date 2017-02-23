@@ -7,6 +7,7 @@ date: "December 3, 2015"
 Let's use an [HTML widget](http://www.htmlwidgets.org/).
 
 ```{r}
+install.packages("leaflet")
 library("leaflet")
 # From `?leaflet::leaflet`
 m <-  leaflet() %>% addTiles()
